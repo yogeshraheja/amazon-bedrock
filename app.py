@@ -1,6 +1,5 @@
 from flask import Flask, render_template, url_for, request, redirect
 from textToText import textToTextFnc
-from textToImage import textToImageFnc
 app = Flask(__name__)
 
 
