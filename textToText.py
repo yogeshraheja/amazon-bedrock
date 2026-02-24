@@ -24,7 +24,7 @@ def textToTextFnc(prompt_data):
     }
 
     response = bedrock.invoke_model(
-        modelId="<PUT_COMPLETE_ARN>:inference-profile/global.amazon.nova-2-lite-v1:0",
+        modelId="<PUT_COMPLETE_ARN>",
         body=json.dumps(payload)
     )
 
